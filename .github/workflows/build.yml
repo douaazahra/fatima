@@ -41,7 +41,7 @@ jobs:
         run: |
            cd $PROJECT_DIR
            mvn clean verify sonar:sonar \
-           -Dsonar.projectKey=Banque \
-           -Dsonar.projectName="Banque" \
+           -Dsonar.projectKey=Projet \
+           -Dsonar.projectName="Projet" \
            -Dsonar.host.url=$SONAR_HOST_URL \
            -Dsonar.login=$SONAR_TOKEN
